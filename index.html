@@ -1,0 +1,78 @@
+---
+title: Narayan talks
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="narayanan25.github.io/css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script src="narayanan25.github.io/js/nav-font-size.js"></script>
+<script src="lib/jquery/js/jquery-3.3.1.min.js"></script>
+  <script src="js/nav-font-size.js"></script>
+
+
+</head>
+<body>
+<div class="main-nav">
+  <div id="expandable">
+    Narayan <span id="span">talks</span>
+  </div>
+
+
+
+<div class="navbar">
+        <div class="col-md-12"><div id="cssmenu"><div id="menu-button">Menu</div>
+  <ul>
+<li><a href="#">About</a></li>
+<li><a href="narayanan25.github.io/blog/index.html">Ramblings</a></li>
+
+<li><a href="#">Photography</a></li>
+
+     <li><a href="#">Artworks</a></li>
+<li><a href="#">Growth Hacking</a></li>
+
+
+
+  </ul>
+</div></div>
+      </div>
+
+    </div>
+
+    <div class="title">
+
+    <!-- <h1>Narayan <span style="font-size: 44px;font-weight: 100;">talks</span></h1> -->
+
+    <p><i>sporadic musings of an existentialist</i></p>
+
+    </div>
+
+
+
+
+      <div class="main">
+        <br><br><br><br><br><br><br><br>
+        asfgasfa
+        asflafa
+        asfaslfba
+        aflas
+				<h1>Hey there!</h1>
+
+				<h2>{{ page.title }}</h2>
+				<h3>Narayan talks</h3>
+				<ul class="posts">
+
+					{% for post in site.posts %}
+						<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
+
+
+        <iframe class="blog" src ="https://narayantalks.blogspot.com/" width="90%" height="500">
+<p>Your browser does not support iFrames.</p>
+</iframe>
+
+      </div>
+
+</body>
+</html>
