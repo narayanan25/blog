@@ -1,3 +1,163 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900');
+
+
+body{
+background: #ffffff;
+margin: 0px;
+}
+.title{
+  height: 720px;
+  background: #000000;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 74px;
+  padding-left: 20px;
+  padding-top: 230px;
+  display: block;
+  /* font-size: 2em; */
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: 400;
+}
+
+body {
+  height: 2000px;
+}
+
+#span{
+  font-size: 44px;
+  font-weight: 100;
+}
+#expandable {
+  text-align: center !important;
+  position: fixed;
+  font-size: 6vw;
+line-height: 6vw;
+text-align: center;
+color: #fff;
+font-family: 'Roboto', sans-serif;
+margin-left: 35%;
+padding-left: 20px;
+padding-top: 20%;
+display: block;
+/* font-size: 2em; */
+
+font-weight: 400;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  color: #4f9d85;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 100;
+  padding-top: 27%;
+}
+
+h3 {
+  color: blue;
+}
+
+.first{
+  background-color: black;
+}
+
+.main{
+  background: white;
+}
+
+.main p{
+  color: black;
+}
+
+/* //navbar// */
+
+.main-nav{
+
+
+    top: 0px;
+    height:8.5%;
+    position: fixed;
+    width: 100%;
+
+  list-style-type: none;
+
+  overflow: hidden;
+  background-color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+
+}
+
+
+.navbar ul {
+  right: 10px;
+    position: fixed;
+    top: 60%;
+  list-style-type: none;
+  opacity: 0;
+  overflow: hidden;
+  background-color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  float: right;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.navbar li {
+  float: right;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #4f9d85;
+}
+
+
+ /* width */
+
+.blog{
+   overflow: scroll;
+ }
+ .blog::-webkit-scrollbar {
+     width: 12px;
+ }
+
+ .blog::-webkit-scrollbar-track {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     border-radius: 10px;
+ }
+
+ .blog::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+ }
+
+
+
 /**
  * Site header
  */
